@@ -81,7 +81,9 @@ def load_plane_data():
     return planes
 
 
+
 p = load_plane_data()
+print("This is a test")
 print('Closest to Eifel Tower: {}'.format(get_best_point(p, 48.8584, 2.2945)))
 print('Closest to JFK: {}'.format(get_best_point(p, 40.6413, 73.7781)))
 
