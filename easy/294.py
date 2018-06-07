@@ -24,7 +24,7 @@ def scrabble(letters, target):
 
 
 def read_file():
-    with open("input/enable1.txt") as f:
+    with open("../input/enable1.txt") as f:
         return [w.replace("\n", "") for w in f.readlines()]
 
 
